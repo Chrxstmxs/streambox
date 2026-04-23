@@ -1,3 +1,4 @@
-# streambox
-Video streaming project for INF web dev course
-by Merry 
+# StreamBox
+
+Video streaming project for IF web dev course.
+This project will allow users to watch videos online.
