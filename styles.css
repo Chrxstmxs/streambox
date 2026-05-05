@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-/* Body */
 body {
     background: #0F172A;
     color: #F8FAFC;
@@ -12,7 +11,6 @@ body {
     line-height: 1.5;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -26,7 +24,6 @@ header h1 {
     font-family: Georgia, serif;
 }
 
-/* Nav */
 nav {
     padding: 1rem 2rem;
 }
@@ -41,7 +38,6 @@ nav a {
     margin-left: 10px;
 }
 
-/* Hero */
 #hero {
     padding: 4rem 2rem;
     background: #1E293B;
@@ -53,7 +49,6 @@ nav a {
     margin-bottom: 1rem;
 }
 
-/* Button */
 .btn-primary {
     background: #F97316;
     color: white;
@@ -63,39 +58,33 @@ nav a {
     margin-top: 20px;
 }
 
-/* Category block */
 .category-block {
     padding: 2rem;
 }
 
-/* Category title */
 .category-block h3 {
     margin-bottom: 1rem;
     color: #F97316;
 }
 
-/* Grid */
 .category {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
 }
 
-/* Cards */
 article {
     background: #1E293B;
     border-radius: 8px;
     padding: 1rem;
 }
 
-/* Images */
 article img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 0.5rem;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 2rem;
