@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background: #0F172A;
+    color: #F8FAFC;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    color: #F97316;
+    font-family: Georgia, serif;
+}
+
+/* Nav */
+nav {
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #CBD5E1;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.home {
+    margin-left: 10px;
+}
+
+/* Hero */
+#hero {
+    padding: 4rem 2rem;
+    background: #1E293B;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Button */
+.btn-primary {
+    background: #F97316;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Category block */
+.category-block {
+    padding: 2rem;
+}
+
+/* Category title */
+.category-block h3 {
+    margin-bottom: 1rem;
+    color: #F97316;
+}
+
+/* Grid */
+.category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+/* Cards */
+article {
+    background: #1E293B;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Images */
+article img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #94A3B8;
+}
