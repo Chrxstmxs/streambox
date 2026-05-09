@@ -63,7 +63,7 @@ video {
 #menu-toggle:checked + .hamburger + nav {
     display: flex;
 }
-
+ 
 @media (min-width: 40em) {
 
     .hamburger {
